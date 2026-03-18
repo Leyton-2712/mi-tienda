@@ -10,6 +10,7 @@ app.use(jsonServer.bodyParser);
 
 app.get("/:resource/:id", (req, res, next) => {
 	const { resource, id } = req.params;
+	const noError = req.query.noError === "true" || req.query.softStatus === "true";
 	const collection = router.db.get(resource);
 
 	if (!collection || !Array.isArray(collection.value())) {
@@ -19,7 +20,8 @@ app.get("/:resource/:id", (req, res, next) => {
 	const entity = collection.find((item) => String(item.id) === String(id)).value();
 
 	if (!entity) {
-		return res.status(404).json({
+	
+		return res.status(200).json({
 			message: `El id ${id} no existe en ${resource}`
 		});
 	}
