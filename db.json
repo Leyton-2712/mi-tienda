@@ -1,0 +1,604 @@
+{
+  "orders": [
+    {
+      "id": "1001-2024",
+      "date": "2024-06-01",
+      "address": "Av. francisco Palau N-33, Cochabamba",
+      "client": {
+        "id": 1,
+        "name": "Cespedes Leyton",
+        "email": "leyton123@gmail.com",
+        "phone": "+591-75982658"
+      },
+      "products": [
+        {
+          "id": 1,
+          "name": "Laptop",
+          "description": "Laptop de 15 pulgadas, 8GB RAM, 256GB SSD",
+          "price": 12000,
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "name": "Mouse inalambrico",
+          "description": "Mouse ergonomico, conexion Bluetooth",
+          "price": 200,
+          "quantity": 2
+        }
+      ],
+      "total": 13000,
+      "state": "pendiente",
+      "deliveryDate": "2026-03-24"
+    },
+    {
+      "id": "1002-2024",
+      "date": "2024-06-03",
+      "address": "Calle Comercio 810, La Paz",
+      "client": {
+        "id": 2,
+        "name": "Maria Lopez",
+        "email": "maria.lopez@email.com",
+        "phone": "+591-71339816"
+      },
+      "products": [
+        {
+          "id": 3,
+          "name": "Teclado mecanico",
+          "description": "Teclado con retroiluminacion RGB",
+          "price": 1500,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "name": "Monitor",
+          "description": "Monitor 24 pulgadas Full HD",
+          "price": 3500,
+          "quantity": 1
+        }
+      ],
+      "total": 5000,
+      "state": "entregado",
+      "deliveryDate": "2026-03-16"
+    },
+    {
+      "id": "1003-2024",
+      "date": "2024-06-05",
+      "address": "Av. Banzer 3200, Santa Cruz de la Sierra",
+      "client": {
+        "id": 3,
+        "name": "Carlos Ramirez",
+        "email": "carlos.ramirez@email.com",
+        "phone": "+591-79782983"
+      },
+      "products": [
+        {
+          "id": 2,
+          "name": "Mouse inalambrico",
+          "description": "Mouse ergonomico, conexion Bluetooth",
+          "price": 500,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "name": "Monitor",
+          "description": "Monitor 24 pulgadas Full HD",
+          "price": 3500,
+          "quantity": 2
+        }
+      ],
+      "total": 7500,
+      "state": "pendiente",
+      "deliveryDate": "2026-03-26"
+    },
+    {
+      "id": "1004-2024",
+      "date": "2024-06-07",
+      "address": "Calle Rene Moreno 145, Santa Cruz de la Sierra",
+      "client": {
+        "id": 4,
+        "name": "Ana Garcia",
+        "email": "ana.garcia@email.com",
+        "phone": "+591-67600376"
+      },
+      "products": [
+        {
+          "id": 5,
+          "name": "Auriculares",
+          "description": "Auriculares con cancelacion de ruido",
+          "price": 800,
+          "quantity": 1
+        },
+        {
+          "id": 6,
+          "name": "Webcam HD",
+          "description": "Camara web 1080p con microfono integrado",
+          "price": 1200,
+          "quantity": 1
+        }
+      ],
+      "total": 2000,
+      "state": "entregado",
+      "deliveryDate": "2026-03-14"
+    },
+    {
+      "id": "1005-2024",
+      "date": "2024-06-09",
+      "address": "Av. Blanco Galindo Km 5, Cochabamba",
+      "client": {
+        "id": 5,
+        "name": "Roberto Silva",
+        "email": "roberto.silva@email.com",
+        "phone": "+591-66474476"
+      },
+      "products": [
+        {
+          "id": 1,
+          "name": "Laptop",
+          "description": "Laptop de 15 pulgadas, 8GB RAM, 256GB SSD",
+          "price": 12000,
+          "quantity": 1
+        },
+        {
+          "id": 7,
+          "name": "Impresora laser",
+          "description": "Impresora monocromatica, 20 ppm",
+          "price": 2800,
+          "quantity": 1
+        }
+      ],
+      "total": 14800,
+      "state": "pendiente",
+      "deliveryDate": "2026-03-28"
+    },
+    {
+      "id": "1006-2024",
+      "date": "2024-06-11",
+      "address": "Calle Ayacucho 560, Cochabamba",
+      "client": {
+        "id": 6,
+        "name": "Laura Martinez",
+        "email": "laura.martinez@email.com",
+        "phone": "+591-68765253"
+      },
+      "products": [
+        {
+          "id": 8,
+          "name": "Tablet",
+          "description": "Tablet 10 pulgadas, 64GB, WiFi",
+          "price": 4500,
+          "quantity": 1
+        },
+        {
+          "id": 9,
+          "name": "Cargador inalambrico",
+          "description": "Cargador Qi de 15W",
+          "price": 300,
+          "quantity": 2
+        }
+      ],
+      "total": 5100,
+      "state": "entregado",
+      "deliveryDate": "2026-03-12"
+    },
+    {
+      "id": "1007-2024",
+      "date": "2024-06-13",
+      "address": "Av. Heroes del Chaco 120, Tarija",
+      "client": {
+        "id": 7,
+        "name": "Fernando Torres",
+        "email": "fernando.torres@email.com",
+        "phone": "+591-65893158"
+      },
+      "products": [
+        {
+          "id": 10,
+          "name": "Smartphone",
+          "description": "Telefono 128GB, 6GB RAM, camara triple",
+          "price": 8500,
+          "quantity": 1
+        },
+        {
+          "id": 11,
+          "name": "Carcasa protectora",
+          "description": "Carcasa de silicona con proteccion",
+          "price": 150,
+          "quantity": 1
+        }
+      ],
+      "total": 8650,
+      "state": "pendiente",
+      "deliveryDate": "2026-03-30"
+    },
+    {
+      "id": "1008-2024",
+      "date": "2024-06-15",
+      "address": "Calle Sucre 98, Tarija",
+      "client": {
+        "id": 8,
+        "name": "Patricia Ruiz",
+        "email": "patricia.ruiz@email.com",
+        "phone": "+591-67601656"
+      },
+      "products": [
+        {
+          "id": 12,
+          "name": "Altavoces Bluetooth",
+          "description": "Altavoces portatiles con subwoofer",
+          "price": 1800,
+          "quantity": 1
+        },
+        {
+          "id": 13,
+          "name": "Microfono USB",
+          "description": "Microfono condensador para streaming",
+          "price": 950,
+          "quantity": 1
+        }
+      ],
+      "total": 2750,
+      "state": "entregado",
+      "deliveryDate": "2026-03-10"
+    },
+    {
+      "id": "1009-2024",
+      "date": "2024-06-17",
+      "address": "Av. Murillo 450, Oruro",
+      "client": {
+        "id": 9,
+        "name": "Miguel Angel Vargas",
+        "email": "miguel.vargas@email.com",
+        "phone": "+591-61276748"
+      },
+      "products": [
+        {
+          "id": 14,
+          "name": "Disco duro externo",
+          "description": "Disco duro 2TB USB 3.0",
+          "price": 2200,
+          "quantity": 1
+        },
+        {
+          "id": 15,
+          "name": "Memoria USB",
+          "description": "Memoria 64GB USB 3.1",
+          "price": 180,
+          "quantity": 3
+        }
+      ],
+      "total": 2740,
+      "state": "pendiente",
+      "deliveryDate": "2026-04-01"
+    },
+    {
+      "id": "1010-2024",
+      "date": "2024-06-19",
+      "address": "Calle Bolivar 300, Oruro",
+      "client": {
+        "id": 10,
+        "name": "Carmen Herrera",
+        "email": "carmen.herrera@email.com",
+        "phone": "+591-70553140"
+      },
+      "products": [
+        {
+          "id": 16,
+          "name": "Router WiFi",
+          "description": "Router dual band AC1200",
+          "price": 1200,
+          "quantity": 1
+        },
+        {
+          "id": 17,
+          "name": "Cable Ethernet",
+          "description": "Cable Cat6 10 metros",
+          "price": 120,
+          "quantity": 2
+        }
+      ],
+      "total": 1440,
+      "state": "entregado",
+      "deliveryDate": "2026-03-08"
+    },
+    {
+      "id": "1011-2024",
+      "date": "2024-06-21",
+      "address": "Av. Busch 1180, Potosi",
+      "client": {
+        "id": 11,
+        "name": "Diego Morales",
+        "email": "diego.morales@email.com",
+        "phone": "+591-65924551"
+      },
+      "products": [
+        {
+          "id": 18,
+          "name": "Consola de videojuegos",
+          "description": "Consola de ultima generacion",
+          "price": 9500,
+          "quantity": 1
+        },
+        {
+          "id": 19,
+          "name": "Control inalambrico",
+          "description": "Control con vibracion y botones analogicos",
+          "price": 800,
+          "quantity": 2
+        }
+      ],
+      "total": 11100,
+      "state": "pendiente",
+      "deliveryDate": "2026-04-03"
+    },
+    {
+      "id": "1012-2024",
+      "date": "2024-06-23",
+      "address": "Calle Linares 240, Potosi",
+      "client": {
+        "id": 12,
+        "name": "Sofia Mendoza",
+        "email": "sofia.mendoza@email.com",
+        "phone": "+591-65847523"
+      },
+      "products": [
+        {
+          "id": 20,
+          "name": "Smart TV",
+          "description": "Televisor 55 pulgadas 4K Ultra HD",
+          "price": 15000,
+          "quantity": 1
+        },
+        {
+          "id": 21,
+          "name": "Fire Stick",
+          "description": "Dispositivo streaming 4K",
+          "price": 1200,
+          "quantity": 1
+        }
+      ],
+      "total": 16200,
+      "state": "entregado",
+      "deliveryDate": "2026-03-06"
+    },
+    {
+      "id": "1013-2024",
+      "date": "2024-06-25",
+      "address": "Av. Simon Bolivar 700, Sucre",
+      "client": {
+        "id": 13,
+        "name": "Ricardo Jimenez",
+        "email": "ricardo.jimenez@email.com",
+        "phone": "+591-60391268"
+      },
+      "products": [
+        {
+          "id": 22,
+          "name": "Drone",
+          "description": "Drone con camara HD y control remoto",
+          "price": 3500,
+          "quantity": 1
+        },
+        {
+          "id": 23,
+          "name": "Bateria extra",
+          "description": "Bateria de repuesto para drone",
+          "price": 400,
+          "quantity": 2
+        }
+      ],
+      "total": 4300,
+      "state": "pendiente",
+      "deliveryDate": "2026-04-05"
+    },
+    {
+      "id": "1014-2024",
+      "date": "2024-06-27",
+      "address": "Calle Aniceto Arce 155, Sucre",
+      "client": {
+        "id": 14,
+        "name": "Elena Castro",
+        "email": "elena.castro@email.com",
+        "phone": "+591-60540030"
+      },
+      "products": [
+        {
+          "id": 24,
+          "name": "Camara digital",
+          "description": "Camara reflex digital 24MP",
+          "price": 8500,
+          "quantity": 1
+        },
+        {
+          "id": 25,
+          "name": "Lente zoom",
+          "description": "Lente 18-55mm f/3.5-5.6",
+          "price": 2800,
+          "quantity": 1
+        }
+      ],
+      "total": 11300,
+      "state": "entregado",
+      "deliveryDate": "2026-03-04"
+    },
+    {
+      "id": "1015-2024",
+      "date": "2024-06-29",
+      "address": "Av. Circunvalacion 900, Trinidad",
+      "client": {
+        "id": 15,
+        "name": "Arturo Luna",
+        "email": "arturo.luna@email.com",
+        "phone": "+591-64378033"
+      },
+      "products": [
+        {
+          "id": 26,
+          "name": "Reloj inteligente",
+          "description": "Smartwatch con GPS y monitor cardiaco",
+          "price": 3200,
+          "quantity": 1
+        },
+        {
+          "id": 27,
+          "name": "Banda deportiva",
+          "description": "Banda de silicona para reloj",
+          "price": 200,
+          "quantity": 2
+        }
+      ],
+      "total": 3600,
+      "state": "pendiente",
+      "deliveryDate": "2026-04-07"
+    },
+    {
+      "id": "1016-2024",
+      "date": "2024-07-01",
+      "address": "Calle Cochabamba 210, Trinidad",
+      "client": {
+        "id": 16,
+        "name": "Veronica Rios",
+        "email": "veronica.rios@email.com",
+        "phone": "+591-61583876"
+      },
+      "products": [
+        {
+          "id": 28,
+          "name": "Lampara LED",
+          "description": "Lampara de escritorio con luz ajustable",
+          "price": 450,
+          "quantity": 1
+        },
+        {
+          "id": 29,
+          "name": "Organizador de escritorio",
+          "description": "Organizador con multiples compartimentos",
+          "price": 180,
+          "quantity": 1
+        }
+      ],
+      "total": 630,
+      "state": "entregado",
+      "deliveryDate": "2026-03-02"
+    },
+    {
+      "id": "1017-2024",
+      "date": "2024-07-03",
+      "address": "Av. Costanera 430, Cobija",
+      "client": {
+        "id": 17,
+        "name": "Hector Delgado",
+        "email": "hector.delgado@email.com",
+        "phone": "+591-78327739"
+      },
+      "products": [
+        {
+          "id": 30,
+          "name": "Escaner de documentos",
+          "description": "Escaner automatico de alimentacion",
+          "price": 1800,
+          "quantity": 1
+        },
+        {
+          "id": 31,
+          "name": "Papel A4",
+          "description": "Resma de papel 500 hojas",
+          "price": 120,
+          "quantity": 5
+        }
+      ],
+      "total": 2400,
+      "state": "pendiente",
+      "deliveryDate": "2026-04-09"
+    },
+    {
+      "id": "1018-2024",
+      "date": "2024-07-05",
+      "address": "Calle Bruno Racua 75, Cobija",
+      "client": {
+        "id": 18,
+        "name": "Adriana Vega",
+        "email": "adriana.vega@email.com",
+        "phone": "+591-61651063"
+      },
+      "products": [
+        {
+          "id": 32,
+          "name": "Proyector multimedia",
+          "description": "Proyector 3000 lumenes, resolucion HD",
+          "price": 6500,
+          "quantity": 1
+        },
+        {
+          "id": 33,
+          "name": "Pantalla portatil",
+          "description": "Pantalla de proyeccion 100 pulgadas",
+          "price": 800,
+          "quantity": 1
+        }
+      ],
+      "total": 7300,
+      "state": "entregado",
+      "deliveryDate": "2026-02-28"
+    },
+    {
+      "id": "1019-2024",
+      "date": "2024-07-07",
+      "address": "Av. Integracion 640, El Alto",
+      "client": {
+        "id": 19,
+        "name": "Oscar Paredes",
+        "email": "oscar.paredes@email.com",
+        "phone": "+591-76857929"
+      },
+      "products": [
+        {
+          "id": 34,
+          "name": "Sistema de sonido",
+          "description": "Sistema 5.1 con subwoofer",
+          "price": 4200,
+          "quantity": 1
+        },
+        {
+          "id": 35,
+          "name": "Cables de audio",
+          "description": "Cables RCA de alta calidad",
+          "price": 150,
+          "quantity": 3
+        }
+      ],
+      "total": 4650,
+      "state": "pendiente",
+      "deliveryDate": "2026-04-11"
+    },
+    {
+      "id": "1020-2024",
+      "date": "2024-07-09",
+      "address": "Calle Juan Pablo II 520, El Alto",
+      "client": {
+        "id": 20,
+        "name": "Isabel Moreno",
+        "email": "isabel.moreno@email.com",
+        "phone": "+591-60239065"
+      },
+      "products": [
+        {
+          "id": 36,
+          "name": "Laptop gaming",
+          "description": "Laptop gaming 17 pulgadas, RTX 3060",
+          "price": 25000,
+          "quantity": 1
+        },
+        {
+          "id": 37,
+          "name": "Mouse gaming",
+          "description": "Mouse con 6 botones programables",
+          "price": 1200,
+          "quantity": 1
+        }
+      ],
+      "total": 26200,
+      "state": "entregado",
+      "deliveryDate": "2026-02-26"
+    }
+  ]
+}
